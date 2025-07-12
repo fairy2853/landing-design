@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
            
             if (isOpen) {
-              
-                toggleIcon.innerHTML = '-';
+
+                toggleIcon.innerHTML = '<i class="fa fa-minus >"></i>';
             } else {
-                
-                toggleIcon.innerHTML = '+';
+
+                toggleIcon.innerHTML = '<i class="fa fa-plus >"></i>';
             }
         });
     });
